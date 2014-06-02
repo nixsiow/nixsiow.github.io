@@ -1,5 +1,5 @@
-jQuery(document).ready(function($){
-  //open team-member bio
+$(document).ready(function(){
+  //open project info
   $('#cd-team').find('ul a').on('click', function(event){
     event.preventDefault();
     var selected_member = $(this).data('type');
@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
     $('body').addClass('overflow-hidden');
   });
 
-  //close team-member bio
+  //close project info
   $(document).on('click', '.cd-overlay, .cd-member-bio-close', function(event){
     event.preventDefault();
     $('main').removeClass('slide-out');

@@ -146,7 +146,7 @@ main.slide-out .cd-overlay {
 }
 
 header {
-  background: #f2ecbd;
+  background: #fff;
 }
 header h1 {
   font-size: 50px;
@@ -164,13 +164,17 @@ header p {
   color: #93861d;
 }
 
+.profile-pic {
+  margin: 30px;
+}
+
 .cd-placeholder-1 {
   background: #f25f5c;
   color: #fdeaea;
 }
 
 .cd-placeholder-2 {
-  background: #FFF;
+  background: #b1f2c6;
 }
 
 .cd-placeholder-3 {
@@ -179,7 +183,8 @@ header p {
 }
 
 .cd-placeholder-4 {
-  background: #fff94e;
+  background: #ffff76;
+  color: #ff687f;
 }
 
 .italicise {
@@ -187,7 +192,7 @@ header p {
 }
 
 #cd-team {
-  background: #8abeb2;
+  background: #7cd9ae;
 }
 #cd-team .cd-container {
   max-width: 1200px;
