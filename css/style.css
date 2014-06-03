@@ -3,20 +3,18 @@
 Primary style
 
 -------------------------------- */
-html * {
+ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
+  font-family:"Droid Serif", serif;
   color: #333333;
   background-color: white;
   /* prevent ie from showing the horizontal scrollbar */
@@ -26,22 +24,19 @@ body.overflow-hidden {
   /* when author bio is visible, the out-of-focus content won't scroll */
   overflow: hidden;
 }
-
 a {
   color: #f25f5c;
   text-decoration: none;
 }
-
 img {
   max-width: 100%;
 }
-
 /* -------------------------------- 
 
 Modules - reusable parts of our design
 
 -------------------------------- */
-.cd-container {
+ .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 1200px;
@@ -49,17 +44,16 @@ Modules - reusable parts of our design
 }
 .cd-container::after {
   /* clearfix */
-  content: '';
+  content:'';
   display: table;
   clear: both;
 }
-
 /* -------------------------------- 
 
 Main components 
 
 -------------------------------- */
-main {
+ main {
   position: relative;
   z-index: 2;
   -webkit-transition-property: -webkit-transform;
@@ -103,7 +97,6 @@ main.slide-out .cd-overlay {
     transform: translateX(-800px);
   }
 }
-
 .cd-section {
   padding: 2em 0;
   text-align: center;
@@ -113,7 +106,7 @@ main.slide-out .cd-overlay {
   max-width: 768px;
 }
 .cd-section h2 {
-  font-family: "Droid Sans", sans-serif;
+  font-family:"Droid Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
@@ -144,7 +137,6 @@ main.slide-out .cd-overlay {
     font-size: 1.125rem;
   }
 }
-
 header {
   background: #fff;
 }
@@ -152,7 +144,7 @@ header h1 {
   font-size: 50px;
   /*font-size: 1.875rem;*/
   /*font-family: "Droid Sans", sans-serif;*/
-  font-family: 'Megrim', cursive;
+  font-family:'Megrim', cursive;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: .4em;
@@ -163,34 +155,30 @@ header p {
   font-size: 0.8125rem;
   color: #93861d;
 }
-
 .profile-pic {
   margin: 30px;
 }
-
 .cd-placeholder-1 {
   background: #f25f5c;
   color: #fdeaea;
 }
-
 .cd-placeholder-2 {
   background: #b1f2c6;
 }
-
 .cd-placeholder-3 {
   background: #7f82ff;
   color: #fff;
 }
-
 .cd-placeholder-4 {
   background: #ffff76;
   color: #ff687f;
 }
-
 .italicise {
   font-style: italic;
 }
-
+.list-none {
+  list-style: none;
+}
 #cd-team {
   background: #7cd9ae;
 }
@@ -252,14 +240,14 @@ header p {
   height: 80px;
   background: #FFF;
   text-align: center;
-  font-family: "Droid Sans", sans-serif;
+  font-family:"Droid Sans", sans-serif;
   font-weight: bold;
   padding-top: 20px;
   border-radius: 0 0 .25em .25em;
 }
 #cd-team .cd-member-info span {
   display: block;
-  font-family: "Droid Serif", serif;
+  font-family:"Droid Serif", serif;
   font-weight: normal;
   color: #999999;
   font-size: 14px;
@@ -276,7 +264,6 @@ header p {
     margin-right: 0;
   }
 }
-
 .cd-member-bio {
   position: fixed;
   top: 0;
@@ -314,13 +301,13 @@ header p {
 }
 .cd-member-bio .cd-member-bio-pict::after {
   /* gradient at the bottom of the image - same color of the background of the section */
-  content: '';
+  content:'';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 80px;
-  background: -webkit-linear-gradient( bottom , #5c4b51, rgba(92, 75, 81, 0));
+  background: -webkit-linear-gradient(bottom, #5c4b51, rgba(92, 75, 81, 0));
   background: linear-gradient(to top, #5c4b51, rgba(92, 75, 81, 0));
 }
 .no-cssgradients .cd-member-bio .cd-member-bio-pict::after {
@@ -335,7 +322,7 @@ header p {
   color: #FFF;
 }
 .cd-member-bio .cd-bio-content h1 {
-  font-family: "Droid Sans", sans-serif;
+  font-family:"Droid Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -403,7 +390,6 @@ header p {
     transform: translateY(0);
   }
 }
-
 .cd-member-bio-close {
   width: 32px;
   height: 32px;
@@ -429,7 +415,6 @@ header p {
     top: 20px;
   }
 }
-
 .cd-overlay {
   position: absolute;
   top: 0;
@@ -440,17 +425,15 @@ header p {
   cursor: pointer;
   display: none;
 }
-
 /* -------------------------------- 
 
 xkeyframes 
 
 -------------------------------- */
-@-webkit-keyframes cd-fade-in {
+ @-webkit-keyframes cd-fade-in {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -459,7 +442,6 @@ xkeyframes
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -468,7 +450,6 @@ xkeyframes
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -477,7 +458,6 @@ xkeyframes
   0% {
     -webkit-transform: translateX(100px);
   }
-
   100% {
     -webkit-transform: translateX(0);
   }
@@ -486,7 +466,6 @@ xkeyframes
   0% {
     -moz-transform: translateX(100px);
   }
-
   100% {
     -moz-transform: translateX(0);
   }
@@ -499,7 +478,6 @@ xkeyframes
     -o-transform: translateX(100px);
     transform: translateX(100px);
   }
-
   100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
