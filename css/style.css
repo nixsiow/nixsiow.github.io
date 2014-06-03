@@ -173,6 +173,13 @@ header p {
   background: #ffff76;
   color: #ff687f;
 }
+.cd-placeholder-5 {
+  background: #f25f5c;
+}
+.social {
+  display: inline-block;
+  width: 15%;
+}
 .italicise {
   font-style: italic;
 }
