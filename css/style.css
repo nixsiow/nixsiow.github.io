@@ -163,18 +163,32 @@ header p {
   color: #fdeaea;
 }
 .cd-placeholder-2 {
-  background: #b1f2c6;
+  background: #ffe57b;
 }
 .cd-placeholder-3 {
   background: #7f82ff;
   color: #fff;
 }
 .cd-placeholder-4 {
-  background: #ffff76;
-  color: #ff687f;
+  background: #73d9ff;
+  color: #0f34ff;
 }
 .cd-placeholder-5 {
   background: #f25f5c;
+}
+.skillset {
+  width: 200px;
+}
+.code {
+  margin: 20px;
+  padding: 20px;
+  background: black;
+  border-radius: 8px;
+}
+.code kbd {
+  color: white;
+  font-size: 25px;
+  font-family: 'Anonymous Pro';
 }
 .social {
   display: inline-block;
