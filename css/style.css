@@ -364,6 +364,9 @@ header p {
   line-height: 1.4;
   color: #d7cfd2;
 }
+.cd-bio-content a:hover{
+  color: #ff9994;
+}
 @media only screen and (min-width: 768px) {
   .cd-member-bio {
     width: 600px;
