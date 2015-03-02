@@ -1,9 +1,9 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
 -------------------------------- */
- html * {
+html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,7 +34,11 @@ img {
 .portfolio-img {
   border-radius: .25em;
 }
-/* -------------------------------- 
+.profile-pic {
+  width: 45%;
+  border-radius: .25em;
+}
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -51,9 +55,9 @@ Modules - reusable parts of our design
   display: table;
   clear: both;
 }
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
  main {
@@ -456,9 +460,9 @@ header p {
   cursor: pointer;
   display: none;
 }
-/* -------------------------------- 
+/* --------------------------------
 
-xkeyframes 
+xkeyframes
 
 -------------------------------- */
  @-webkit-keyframes cd-fade-in {
