@@ -1,302 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <!-- CSS reset -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- stylesheet's link -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
   <!-- Modernizr -->
-
-  <title>Nix Siow. Web Developer</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+  <title>Nix Siow.</title>
 </head>
 
 <body>
-  <main>
-    <a href="http://github.com/nixsiow" target="_blank">
-      <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 2" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+  <main id="main-container">
+    <a href="code.html" target="_blank">
+      <div id="div1">
+        <b class="center hover">CODE</b>
+      </div>
     </a>
 
-    <header class="cd-section">
-      <div class="cd-container">
-        <i class='tooltip-right profile-pic' data-tooltip="Hi I am Nix Siow! Want to know what I do for living? Scroll down!"><img class="profile-pic" src="img/Nix.JPG" alt="Nix Siow"></i>
-        <br><br><br><h1>Nix Siow</h1>
-        <p>
-          < code > Web Development Learner < /code >
-        </p>
+    <a href="http://photographandnix.tumblr.com" target="_blank">
+      <div id="div2">
+        <b class="center hover">PHOTOGRAPH</b>
       </div>
-      <!-- cd-container -->
-    </header>
+    </a>
 
-    <section class="cd-section cd-placeholder-1">
-      <div class="cd-container">
-        <i class='tooltip-right' data-tooltip="Did I tell you I love Ruby so much? Especially on Rails!">
-          <img class="skillset" src="img/Ruby-Icon.png" alt="Ruby">
-        </i>
-        <br><br><h2>Ruby</h2>
-        <p>Ruby on Rails</p>
-        <div class="code">
-          <kbd>puts 'Hello World'</kbd>
-        </div>
+    <a href="http://nixsiow.tumblr.com" target="_blank">
+      <div id="div3">
+        <b class="center hover">BLOG</b>
       </div>
-      <!-- cd-container -->
-    </section>
+    </a>
 
-    <section class="cd-section cd-placeholder-2">
-      <div class="cd-container">
-        <i class='tooltip-right' data-tooltip="Javascript is awesome! It make website alot more interactive and FUN!">
-          <img class="skillset" src="img/JS-Icon.jpg" alt="Javascript">
-        </i>
-        <br><br><h2>Javascript</h2>
-        <p>jQuery • Backbone.js • Underscore.js • Node.js</p>
-        <div class="code">
-          <kbd>console.log('Hello World')</kbd>
-        </div>
+    <a href="#">
+      <div id="div4">
+        <b class="center hover">CONTACT</b>
       </div>
-      <!-- cd-container -->
-    </section>
-
-    <section class="cd-section cd-placeholder-3">
-      <div class="cd-container">
-        <i class='tooltip-right' data-tooltip="The coolest version of HTML ever! Yeah, this tooltips is the value from the newly HTML5 data-attribute?">
-          <img class="skillset" src="img/HTML5-Icon.png" alt="HTML5">
-        </i>
-        <br><br><h2>HTML5</h2>
-        <p>Data Attribute • New APIs • Local Storage • Form Features • Others</p>
-        <div class="code">
-          <kbd>< h1 >Hello World < /h1 ></kbd>
-        </div>
-      </div>
-      <!-- cd-container -->
-    </section>
-
-    <section class="cd-section cd-placeholder-4">
-      <div class="cd-container">
-        <i class='tooltip-right' data-tooltip="CSS3 make webpage look gorgeous! Animation, animation and animation!">
-          <img class="skillset" src="img/CSS3-Icon.png" alt="CSS3">
-        </i>
-        <br><br><h2>CSS3</h2>
-        <p>Bootstrap • Animation • Transition</p>
-        <div class="code">
-          <kbd>body:before { content: "Hello World"; }</kbd>
-        </div>
-      </div>
-      <!-- cd-container -->
-    </section>
-
-    <section id="cd-team" class="cd-section">
-      <div class="cd-container">
-        <h2>Key Projects</h2>
-        <ul>
-          <li>
-            <a href="http://effy.heroku.com" target="_blank" data-type="member-1">
-              <figure>
-                <img src="img/Effy.jpg" alt="Effy">
-                <div class="cd-img-overlay">
-                  <span>View</span>
-                </div>
-              </figure>
-
-              <div class="cd-member-info">
-                Effy
-                <span>Manage your time with <i class="italicise">Effy.</i>
-                </span>
-              </div>
-            </a>
-          </li>
-
-          <li>
-            <a href="http://demochattic.heroku.com" target="_blank" data-type="member-2">
-              <figure>
-                <img src="img/Demochattic.jpg" alt="Demochattic">
-                <div class="cd-img-overlay">
-                  <span>View</span>
-                </div>
-              </figure>
-
-              <div class="cd-member-info">
-                Demochattic
-                <span>Democratic + Chat Apps = <i class="italicise">Demochattic</i>
-                </span>
-              </div>
-            </a>
-          </li>
-
-          <li>
-            <a href="http://marketplac.heroku.com" target="_blank" data-type="member-3">
-              <figure>
-                <img src="img/MarketPlac.jpg" alt="MarketPlac">
-                <div class="cd-img-overlay">
-                  <span>View</span>
-                </div>
-              </figure>
-
-              <div class="cd-member-info">
-                Market<i class="italicise">Plac</i>
-                <span>An E-Commerce website literally look good.</span>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- cd-container -->
-    </section>
-    <!-- cd-team -->
-
-    <section class="cd-section cd-placeholder-5">
-      <div>
-        <a href="http://wdi4gasyd.github.io" target="_blank">
-          <figure>
-            <img src="img/WDI4-Portfolio.jpg" alt="WDI4-Portfolio" class="portfolio-img">
-          </figure>
-        </a>
-        <div>
-          <br><span>Web Development Immersive, <a href="http://generalassemb.ly" target="_blank">General Assembly Sydney</a>
-          <br><br>Class Yearbook</span>
-        </div>
-      </div>
-    </section>
-
-    <div class="cd-overlay"></div>
+    </a>
   </main>
 
-  <div class="cd-member-bio member-1">
-    <div class="cd-member-bio-pict">
-      <img src="img/Effy.jpg" alt="Member Bio image">
-    </div>
-    <!-- cd-member-bio-pict -->
 
-    <div class="cd-bio-content">
-      <a href="http://effy.herokuapp.com/" target="_blank"><h1>Effy</h1></a>
-      <p><a href="http://github.com/nixsiow/effy" target="_blank">Fork Effy on Github</a>
-      </p>
 
-      <p>Effy is a time management to-do list app that make your life easier and save your time!</p>
-      <p>Manage your time and tasks by categorized task as:</p>
-      <li>Urgent & Important</li>
-      <li>Urgent. Not Important</li>
-      <li>Not Urgent. Important</li>
-      <li>Not Urgent & Not Important</li>
+  <section id="contact-container" style="display: none ">
 
-      <br><br>
-      <p>Effy is the first project during Web Development Immersive course with General Assembly.</p>
-      <ul>Key Front end & Back end Technologies:
-        <li> > Ruby on Rails</li>
-        <li> > Geolocation API & OpenWeather API</li>
-        <li> > Bootstap framework</li>
-        <li> > HTML5</li>
-        <li> > CSS3 </li>
-      </ul>
-      <p>Check <a target="_blank" href="http://effy.herokuapp.com/">Effy on Heroku.</a></p>
-    </div>
-    <!-- cd-bio-content -->
-  </div>
-  <!-- cd-member-bio -->
-
-  <div class="cd-member-bio member-2">
-    <div class="cd-member-bio-pict">
-      <img src="img/Demochattic.jpg" alt="Demochattic image">
-    </div>
-    <!-- cd-member-bio-pict -->
-
-    <div class="cd-bio-content">
-      <a href="http://demochattic.heroku.com" target="_blank"><h1>Demochattic</h1></a>
-      <p><a href="http://github.com/nizmox/demochat" target="_blank">Fork Demochattic on Github</a>
-      </p>
-
-      <p>
-        To create a website that allows chatroom functionality via the browser but with a difference. Most chatroom sites / apps require admins to administer each channel / room to kick / ban users, change the topic, promote other admins etc... Admins are usually determined solely by who was the first user to enter the channel.
-
-        <br>
-        <br>So the question we wanted to ask is why can't channels govern themselves? Why is it necessary to have admins at all? Democracy works right?
-
-        <br>
-        <br>Our concept is to have democratic chatrooms, where all users in the channel get a say in any and every change anyone may want to make! Whether it's muting a user or changing the topic, you'll have your say!
-
-        <br>
-        <br>Another gripe we had with chat channels is that you need to be a user simply to view the chatroom. We wanted to allow guest access to rooms so that users who want to read but not message can do so at their leisure.
-
-        <br>
-        <br>Finally we wanted a chatroom with a clean and sleek design. So many of the web based chatrooms have either hideous designs or load some horrid external application within the browser. This certainly does not provide a good user experience!
-      </p>
-
-      <h3><u>Key focus to archive on this project:</u></h3><br>
-      <ul>
-        <li> > Get experience collaborating and working in a development team.</li>
-        <br><li> > To gain experience integrating topics covered during this course thus far.</li>
-        <br><li> > Showcase your abilities to potential employers, friends, family, and community members.</li>
-      </ul>
-      <p>Check <a target="_blank" href="http://demochattic.herokuapp.com/">Demochattic on Heroku.</a></p>
-    </div>
-    <!-- cd-bio-content -->
-  </div>
-  <!-- cd-member-bio -->
-
-  <div class="cd-member-bio member-3">
-    <div class="cd-member-bio-pict">
-      <img src="img/MarketPlac.jpg" alt="Member Bio image">
-    </div>
-    <!-- cd-member-bio-pict -->
-
-    <div class="cd-bio-content">
-      <a href="http://marketplac.herokuapp.com/" target="_blank"><h1>Market<i class="italicise">Plac</i></h1></a>
-      <p><a href="http://github.com/nixsiow/WDI4-Final-Project--Marketplac" target="_blank">Fork Market<i class="italicise">Plac</i> on Github</a>
-      </p>
-
-      <p>MarketPlac is a ecommerce site that use Stripe as payment gateway and it is really cool!</p>
-      <p>Start selling on MarketPlac and start received payment online!</p>
-      <ul>Key Front end & Back end Technologies:
-        <li> > Ruby on Rails</li>
-        <li> > Javascript</li>
-        <li> > AJAX</li>
-        <li> > Stripe API (Payment Gateway)</li>
-        <li> > RSpec testing on Rails (Test Driven Development)</li>
-        <li> > Bootstap framework</li>
-      </ul>
-      <p>Key focus on this project is to practise use of Javascript and Rails. Shopping cart implementation and actual payment gateway is the challenge during development. </p>
-
-      <p>Check <a target="_blank" href="http://marketplac.herokuapp.com/">Market<i class="italicise">Plac</i> on Heroku.</a></p>
-    </div>
-    <!-- cd-bio-content -->
-  </div>
-  <!-- cd-member-bio -->
-  <a href="#0" class="cd-member-bio-close">Close</a>
-  <!-- close the author bio section -->
-
-  <footer>
-    <section class="cd-section cd-placeholder-6">
-      <div class="cd-container">
-        <a class="social wobble-vertical" href="http://www.github.com/nixsiow" target="_blank">
-          <img src="img/Github-Icon.png" alt="Github">
-        </a>
-        <a class="social wobble-vertical" href="http://www.twitter.com/nixsiow" target="_blank">
-          <img src="img/Twitter-Icon.png" alt="Twitter">
-        </a>
-        <a class="social wobble-vertical" href="http://www.linkedin.com/in/nixsiow" target="_blank">
-          <img src="img/Linkedin-Icon.png" alt="Linkedin">
-        </a>
-        <a class="social wobble-vertical" href="http://www.facebook.com/nixsiow.yk" target="_blank">
-          <img src="img/Facebook-Icon.png" alt="Facebook">
-        </a>
-        <a class="social wobble-vertical" href="mailto:nixsiow@hotmail.com" target="_blank">
-          <img src="img/Email-Icon.png" alt="Email Me">
-        </a>
+    <a href="http://github.com/nixsiow" target="_blank">
+      <div id="contact-div1">
+        <p class="center text-visibility">Github</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Github-Icon.png" alt="Github"></i>
       </div>
-      <!-- cd-container -->
-    </section>
-  </footer>
+    </a>
 
-  <p class="scrollToTop" style="display: inline;"><span>Jump to top</span></p>
+    <a href="http://twitter.com/nixsiow" rel="me" target="_blank">
+      <div id="contact-div2">
+        <p class="center text-visibility">Twitter</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Twitter-Icon.png" alt="Twitter"></i>
+      </div>
+    </a>
 
+    <a href="http://facebook.com/nixsiow.yk" rel="me" target="_blank">
+      <div id="contact-div3">
+        <p class="center text-visibility">Facebook</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Facebook-Icon.png" alt="Facebook"></i>
+      </div>
+    </a>
+
+    <a href="http://linkedin.com/in/nixsiow" rel="me" target="_blank">
+      <div id="contact-div4">
+        <p class="center text-visibility">LinkedIn</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Linkedin-Icon.png" alt="LinkedIn"></i>
+      </div>
+    </a>
+
+    <a href="http://plus.google.com/+nixsiow" rel="me" target="_blank">
+      <div id="contact-div5">
+        <p class="center text-visibility">Google+</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Google-Plus-Icon.png" alt="Google+"></i>
+      </div>
+    </a>
+
+    <a href="http://nixsiow.tumblr.com" rel="me" target="_blank">
+      <div id="contact-div6">
+        <p class="center text-visibility">Tumblr</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Tumblr-Icon.png" alt="Tumblr"></i>
+      </div>
+    </a>
+
+    <a href="http://flickr.com/photos/nixsiow" rel="me" target="_blank">
+      <div id="contact-div7">
+        <p class="center text-visibility">Flickr</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Flickr-Icon.png" alt="Flickr"></i>
+      </div>
+    </a>
+
+    <a href="http://instagram.com/nixsiow" rel="me" target="_blank">
+      <div id="contact-div8">
+        <p class="center text-visibility">Instagram</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Instagram-Icon.png" alt="Instagram"></i>
+      </div>
+    </a>
+
+    <a href="http://quora.com/Nix-Siow" rel="me" target="_blank">
+      <div id="contact-div9">
+        <p class="center text-visibility">Quora</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Quora-Icon.png" alt="Quora"></i>
+      </div>
+    </a>
+
+    <a href="nixsiow@hotmail.com" target="_blank">
+      <div id="contact-div10">
+        <p class="center text-visibility">Email</p>
+        <i class="center hover"><img class="minimize-icon" src="assets/images/256-ContactIcons/Email-Icon.png" alt="Email"></i>
+      </div>
+    </a>
+  </section>
+
+  <!-- Back to home button -->
+  <p class="back" style="display: inline;"><span>Home</span></p>
+  <!-- jQuery from cdn -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="js/portfolio.js"></script>
+  <!-- Local js file -->
+  <script src="assets/javascripts/home.js"></script>
+  <a href='https://alpha.app.net/nixsiow' rel='me' style="display: none">...</a>
 </body>
-
 </html>

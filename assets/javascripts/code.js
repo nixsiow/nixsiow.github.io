@@ -1,6 +1,9 @@
 $(document).ready(function() {
+  // Hide button at first load.
+  $('.scrollToTop').hide();
+
   //open project info
-  $('#cd-team').find('ul a').on('click', function(event) {
+  $('.slide-out-effect').find('ul a').on('click', function(event) {
     event.preventDefault();
     var selected_member = $(this).data('type');
     $('main').addClass('slide-out');
@@ -25,10 +28,10 @@ $(document).ready(function() {
 
   //Check to see if the window is top if not then display button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 300) {
+    if ($(this).scrollTop() > 600) {
       $('.scrollToTop').fadeIn();
     } else {
-      $('.scrollToTop').fadeOut();
+      $('.scrollToTop').hide();
     }
   });
 
@@ -39,4 +42,5 @@ $(document).ready(function() {
     }, 800);
     return false;
   });
+
 });

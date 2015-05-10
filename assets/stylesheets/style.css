@@ -1,0 +1,69 @@
+/* Set the unviversal font for body */
+body {font-family: 'Julius Sans One', sans-serif; font-size: 40px; }
+
+html, body, #main-container, #contact-container { height: 100%; padding: 0; margin: 0; }
+#main-container div { width: 50%; height: 50%; float: left; }
+#contact-container div { width: 20%; height: 50%; float: left; }
+
+/* Main Page's DIVs with coloring */
+#div1 { background: #F25F5C; color: #fff;}
+#div2 { background: #FFE066; color: #000;}
+#div3 { background: #247BA0; color: #f8fa64;}
+#div4 { background: #70C1B3; color: #fcefe4;}
+
+/* DIVs for contact with coloring */
+#contact-div1 { background: #F25F5C; color: #fff;}
+#contact-div2 { background: #FFE066; color: #000;}
+#contact-div3 { background: #247BA0; color: #f8fa64;}
+#contact-div4 { background: #70C1B3; color: #fcefe4;}
+#contact-div5 { background: #F3FFBD; color: #000;}
+#contact-div6 { background: #114B5F; color: #fff;}
+#contact-div7 { background: #028090; color: #fcefe4;}
+#contact-div8 { background: #E4FDE1; color: #000;}
+#contact-div9 { background: #456990; color: #fff;}
+#contact-div10 { background: #F45B69; color: #fff;}
+
+/* Main Page's DIVs with pop up effect and hover effect */
+#div1, #div2, #div3, #div4, #contact-div1, #contact-div2, #contact-div3, #contact-div4, #contact-div5, #contact-div6, #contact-div7, #contact-div8, #contact-div9, #contact-div10 { box-shadow: 0 0 1em #545050; display: table; }
+#div1:hover, #div2:hover, #div3:hover, #div4:hover, #contact-div1:hover, #contact-div2:hover, #contact-div3:hover, #contact-div4:hover, #contact-div5:hover, #contact-div6:hover, #contact-div7:hover, #contact-div8:hover, #contact-div9, #contact-div10 { box-shadow: 0 0 1.25em #000; cursor: pointer; }
+
+/* Use to center text inside DIVs */
+.center { display: table-cell; vertical-align: middle; text-align: center; opacity: 0.75}
+
+.minimize-icon { height: 50%; }
+.text-visibility { display: none }
+
+/* home button (shows up at contact list page) */
+.back {
+  position: fixed;
+  display: none;
+  bottom: 12px;
+  left: 12px;
+  padding: 0 25px;
+  line-height: 32px;
+  font-size: 12px;
+  background: #2263db;
+  color: #e4e8ef;
+  font-weight: bold;
+  border-radius: 200px 10px 10px 200px;
+  z-index: 9;
+  cursor: pointer;
+}
+
+/* hover effect apply to all the text at homepage */
+.hover:hover {opacity: 1}
+
+/* Media query for situation where screen getting smaller(mobile/pad) */
+/* And rearrange each div vertically. Different approach. */
+@media only screen and (max-width: 800px) {
+  #main-container div { width: 100%; height: 25%; float: left; }
+  .hover {opacity: 1}
+}
+
+/* Media query for contact list */
+@media only screen and (max-width: 1000px) {
+  #contact-container div { width: 100%; height: 10%; float: left; }
+  .minimize-icon { display: none; }
+  .text-visibility { display: table-cell }
+  .hover {opacity: 1}
+}

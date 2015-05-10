@@ -14,7 +14,7 @@ html * {
 }
 body {
   font-size: 100%;
-  font-family:"Droid Serif", sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   color: #333333;
   background-color: white;
   /* prevent ie from showing the horizontal scrollbar */
@@ -30,9 +30,6 @@ a {
 }
 img {
   max-width: 100%;
-}
-.portfolio-img {
-  border-radius: .25em;
 }
 .profile-pic {
   width: 45%;
@@ -113,7 +110,7 @@ main.slide-out .cd-overlay {
   max-width: 768px;
 }
 .cd-section h2 {
-  font-family:"Droid Sans", sans-serif;
+  font-family:"Julius Sans One", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
@@ -149,10 +146,7 @@ header {
 }
 header h1 {
   font-size: 50px;
-  /*font-size: 1.875rem;*/
-  /*font-family: "Droid Sans", sans-serif;*/
-  font-family:'Megrim', sans-serif;
-  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
   margin-bottom: .4em;
   color: #3e380c;
@@ -163,29 +157,38 @@ header p {
   color: #93861d;
 }
 .profile-pic {
-  margin: 30px;
+  margin: 25px;
 }
 .cd-placeholder-1 {
-  background: #f25f5c;
+  background: #f57171;
   color: #fdeaea;
 }
 .cd-placeholder-2 {
-  background: #ffe57b;
+  background: #f8ea93;
 }
 .cd-placeholder-3 {
-  background: #7f82ff;
+  background: #247BA0;
   color: #fff;
 }
 .cd-placeholder-4 {
-  background: #73d9ff;
-  color: #0f34ff;
+  background: #E4FDE1;
+  color: #172655;
 }
 .cd-placeholder-5 {
-  background: #3c60b1;
-  color: white;
+  background: #4c78be;
+  color: #fff;
 }
 .cd-placeholder-6 {
-  background: #f25f5c;
+  background: #ff7b7b;
+  color: #fff;
+}
+.cd-placeholder-7 {
+  background: #5386fe;
+  color: #fff;
+}
+.cd-placeholder-8 {
+  background: #fe5f5f;
+  color: #fff;
 }
 .skillset {
   width: 200px;
@@ -212,13 +215,13 @@ header p {
   list-style: none;
 }
 #cd-team {
-  background: #7cd9ae;
+  background: #cbffe7;
 }
 #cd-team .cd-container {
   max-width: 1200px;
 }
 #cd-team h2 {
-  color: #1a2f2a;
+  color: #424141;
 }
 #cd-team li {
   margin-bottom: 2em;
@@ -272,14 +275,14 @@ header p {
   height: 80px;
   background: #FFF;
   text-align: center;
-  font-family:"Droid Sans", sans-serif;
+  font-family:"Julius Sans One", sans-serif;
   font-weight: bold;
   padding-top: 20px;
   border-radius: 0 0 .25em .25em;
 }
 #cd-team .cd-member-info span {
   display: block;
-  font-family:"Droid Serif", serif;
+  font-family:"Julius Sans One", serif;
   font-weight: normal;
   color: #999999;
   font-size: 14px;
@@ -354,7 +357,7 @@ header p {
   color: #FFF;
 }
 .cd-member-bio .cd-bio-content h1 {
-  font-family:"Droid Sans", sans-serif;
+  font-family:"Julius Sans One", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -529,7 +532,7 @@ xkeyframes
 /* Base styles for the element that has a tooltip */
 [data-tooltip], .tooltip {
   position: relative;
-  cursor: pointer;
+  cursor: default;
 }
 /* Base styles for the entire tooltip */
 [data-tooltip]:before, [data-tooltip]:after, .tooltip:before, .tooltip:after {
@@ -576,7 +579,7 @@ xkeyframes
 }
 /* Horizontally align top/bottom tooltips */
 [data-tooltip]:after, .tooltip:after, .tooltip-top:after {
-  margin-left: -80px;
+  margin-left: -150px;
 }
 [data-tooltip]:hover:before, [data-tooltip]:hover:after, [data-tooltip]:focus:before, [data-tooltip]:focus:after, .tooltip:hover:before, .tooltip:hover:after, .tooltip:focus:before, .tooltip:focus:after, .tooltip-top:hover:before, .tooltip-top:hover:after, .tooltip-top:focus:before, .tooltip-top:focus:after {
   -webkit-transform: translateY(-12px);
@@ -717,7 +720,7 @@ xkeyframes
   background: #2263db;
   color: #e4e8ef;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 5px 200px 200px 5px;
   z-index: 9;
   cursor: pointer;
 }
