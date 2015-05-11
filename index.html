@@ -14,7 +14,7 @@
 
 <body>
   <main id="main-container">
-    <a href="code.html" target="_blank">
+    <a href="http://nisiow.com/code" target="_blank">
       <div id="div1">
         <b class="center hover">CODE</b>
       </div>
@@ -40,7 +40,8 @@
   </main>
 
 
-
+  <!-- hide the contact-container at first -->
+  <!-- JS listen on click event and will hide the main-container and fadeIn contact-container. -->
   <section id="contact-container" style="display: none ">
 
     <a href="http://github.com/nixsiow" target="_blank">
@@ -113,13 +114,26 @@
       </div>
     </a>
   </section>
-
+  <!-- End of contact-container -->
+  
   <!-- Back to home button -->
   <p class="back" style="display: inline;"><span>Home</span></p>
+  <!-- app.net's code - for verification purpose. hidden from homepage -->
+  <a href='https://alpha.app.net/nixsiow' rel='me' style="display: none">...</a>
+
   <!-- jQuery from cdn -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- Local js file -->
   <script src="assets/javascripts/home.js"></script>
-  <a href='https://alpha.app.net/nixsiow' rel='me' style="display: none">...</a>
+  <!-- Google analytics code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62829300-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
