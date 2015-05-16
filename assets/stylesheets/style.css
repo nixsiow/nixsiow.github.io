@@ -30,7 +30,7 @@ html, body, #main-container, #contact-container { height: 100%; padding: 0; marg
 /* Use to center text inside DIVs */
 .center { display: table-cell; vertical-align: middle; text-align: center; opacity: 0.75}
 
-.minimize-icon { height: 50%; }
+.minimize-icon { width: 65%; }
 .text-visibility { display: none }
 
 /* home button (shows up at contact list page) */
