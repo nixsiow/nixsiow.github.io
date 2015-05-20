@@ -39,13 +39,14 @@ html, body, #main-container, #contact-container { height: 100%; padding: 0; marg
   display: none;
   bottom: 12px;
   left: 12px;
-  padding: 0 25px;
+  padding: 0 15px;
   line-height: 32px;
   font-size: 12px;
-  background: #2263db;
+  background-color: transparent;
+  border: 1px solid white;
   color: #e4e8ef;
   font-weight: bold;
-  border-radius: 200px 10px 10px 200px;
+  border-radius: 10px;
   z-index: 9;
   cursor: pointer;
 }
