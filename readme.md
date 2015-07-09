@@ -1,11 +1,4 @@
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-
-***
-## Hey, this is [my personal site](http://nixsiow.com) which I use it to present my own stuff.
-### Feel free to fork it, change the details and turn it to your own personal site if you like it.
-
-
-#### Find me on twitter if you wanna talk. [@nixsiow](http://twitter.com/nixsiow)
+## [My personal site](http://nixsiow.com).
 
 #### Colour scheme are handpicked and generated from [Coolors.co](http://coolors.co/app/).
 1. [Colour set 1](http://coolors.co/app/50514f-f25f5c-ffe066-247ba0-70c1b3)
