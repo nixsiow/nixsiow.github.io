@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/nixsiow
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nixsiow.com
+  * I am nixsiow (https://keybase.io/nixsiow) on keybase.
+  * I have a public key with fingerprint 06AE BB94 E6D5 E117 532E  50CA E648 08E8 0158 4555
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207176839d812fc2ccfd915ca6366cc0c1df9082d6e9cd7b3277f1134334d80d770a",
+            "fingerprint": "06aebb94e6d5e117532e50cae64808e801584555",
+            "host": "keybase.io",
+            "key_id": "e64808e801584555",
+            "kid": "0101a5b156b5130c0aba514fccfe072d7e43852f8509cb39e93305afdf4df57e9e230a",
+            "uid": "d3c6cfae0892cb96754d61c99e7b5019",
+            "username": "nixsiow"
+        },
+        "service": {
+            "hostname": "nixsiow.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469595837,
+    "expire_in": 157680000,
+    "prev": "2ae0c4c2becb53c9ba9dd2eb4248d296ad86b4e28ddebc6a0a1a0703e9d21aba",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNsAnicbVJtTBRHGD5UQA+xiLRVUi2sKSUKZL8/jpBQEEuUmpbSKzXKZXdmlluF
+W7w74MgJkUKgX1JboUAKKkUEchFDC5Qmgh6peJZEq8WkoKlVgUIbgaKoiYjdJfVH
+k86fybzzPM88zzvvj8HLDUa/idSVk36ZKe/5DXlr8g3v1yX2uTFJhUWYyY3tR0sb
+yoHI4bTsVyBmwnCCxDmCY3lKgDxByoAEQIYCwQCRpVgWABwQUBZwnoQsEgDkJIrk
+OJkgKJqiaMjjkONwEYvBZMWWjex5dsXm1GVZEUmSQCMWMoggOIYiEYMDEbE0j/OI
+xwmGpxmG0YhW1aEzNHOS6EBxiqrVtINlyd7/4J/7xgmRkQiGlRiCwgEuSiJD0LLm
+HuEcCTlEUzxDyjyDC0CiBCRQFM6IMpRpKDMcEhBJLfnOX5KDFGCBLCKcF0ggCSzH
+0JAlgCAgTmJwQtCBDmS3iblIQ9sUl0NRC7HiGEwrFigA6X3Vg/wXEAfUXI2ZZ1ed
+KlBztAur05nnMOlEZ1GejixEkuVfDYuk2KDWRY1RgOwa34aZCA0JnIouStCswAgM
+T3ExGHLlKXZkUXQEo30eri39HVSgSZJaDEADUkJAYiggSKIAIYkkmqR5SAqsCHlW
+ohHJQ4gkwIq4SIg4h1NIgCShtRHTUx2wqZhJ0GyK2ZqkQ8m2ic58O8KKB7x7Vhj8
+jIYA/2X6dBmMq0Kez1zghyGGjuyk5mORx1Irzo29hl4+tb5vfsGz2KvGH/G/s3lj
+yEdtdaFfyn8FfTDYnuF13du3zRtbPnklvSw5/0xFQumOiVJ742V1W2RC+Kog39ZP
+L/Wl8eNzVGgTUUU5v21Q2+PpNfnhRQcvbJe7kw6+2HbidkR10hDucx9K3/nwSDPm
+y9n9TV907IGG+y8JoRlh7xylK28nd47fKX5ctJ6qX2m6NXbSPC1vzLF8vDeqstbI
+NV3/ot6vJr1GnsFOeyKOt2R/llWeOWZGr9/sjw2GKdeOF34S1bj2yoOunpKJZ2EF
+bYsRSS0tXyXOPRo9f7gLbFh4jFlDTqcHDOKjt3wVf1SPixHGtZkPxIZ4bE91YKr5
+euHvXULgpvJHQQkBu5/uHFq3Gm2wZQyWJYX5/Mu8n0d/H2OcJmt7ZqNnBobnX8gd
+e3u1K8dzJmX4V7d5vif8bOu5jqZrA1db/+6Z6HdnduSYl0UaqDjqyY2SP13eFXdP
+7HroeStj5kbaxQvB1E81jdM261zj1PZ3L9/rjTpbMdb6xm/eRM9I+UjZef/uk57I
+Q2mLom92eN3en6si+zv5uNpd90vevMgdNWd5T21qf7Jj8rusr/c55VeqnoF65lJK
+m3WLtclXuqU6uSDuh4zKrf5THvnpQm/zL1ND0ZN1I52VVwfnMdm7/K69drR6tqjt
+1ZuBazZ3uxtd/wBrycPw
+=61Lg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nixsiow
+
+==================================================================
